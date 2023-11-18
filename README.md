@@ -16,9 +16,9 @@ WARNING: This design has not been tested yet. Use at your own risk!
 * Configurable interrupt vectors to the top of any of the 4K chunks.
 * Max. 1 TTL load on the bus, so it will work nicely on unbuffered backplanes
 
-![components](https://github.com/eduardocasino/kim-1-RAM-ROM/blob/main/images/)
-![front](https://github.com/eduardocasino/kim-1-RAM-ROM-front/blob/main/images/)
-![back](https://github.com/eduardocasino/kim-1-RAM-ROM-back/blob/main/images/)
+![components](https://github.com/eduardocasino/kim-1-mtu-ram-rom/blob/main/images/kim-1-RAM-ROM.png?raw=true)
+![front](https://github.com/eduardocasino/kim-1-mtu-ram-rom/blob/main/images/kim-1-RAM-ROM-front.png?raw=true)
+![back](https://github.com/eduardocasino/kim-1-mtu-ram-rom/blob/main/images/kim-1-RAM-ROM-back.png?raw=true)
 
 
 ## Licensing
