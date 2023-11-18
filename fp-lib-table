@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MTU")(type "KiCad")(uri "${KIPRJMOD}/footprints/MTU.pretty")(options "")(descr ""))
+  (lib (name "DIP_Socket")(type "KiCad")(uri "${KIPRJMOD}/footprints/DIP_Socket.pretty")(options "")(descr ""))
+  (lib (name "Triple_Pin_Header")(type "KiCad")(uri "${KIPRJMOD}/footprints/Triple_Pin_Header.pretty")(options "")(descr ""))
+  (lib (name "CP_Radial_THT")(type "KiCad")(uri "${KIPRJMOD}/footprints/CP_Radial_THT_Library.pretty")(options "")(descr ""))
+)
