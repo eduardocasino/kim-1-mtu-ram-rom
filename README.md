@@ -31,6 +31,10 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 See the LICENSE.md file for details.
 
+## Changelog
+#### 24/11/2023
+* Add option to support the MTU floppy controller boot prom 
+
 ## Acknowledgements
 
 * This design is based on late Bob Applegate's [60K RAM/ROM card](https://www.corshamtech.com/product/kim-1-60k-rameprom-board/)
