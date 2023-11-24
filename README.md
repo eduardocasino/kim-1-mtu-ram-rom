@@ -33,7 +33,8 @@ See the LICENSE.md file for details.
 
 ## Changelog
 #### 24/11/2023
-* Add option to support the MTU floppy controller boot prom 
+* Add option to support the MTU floppy controller boot prom
+* Minor silkscreen update
 
 ## Acknowledgements
 
