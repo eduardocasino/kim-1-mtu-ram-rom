@@ -32,6 +32,9 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 See the LICENSE.md file for details.
 
 ## Changelog
+#### 26/11/2023
+* Remove useless option to support the MTU floppy controller boot prom
+* Simplify design a bit
 #### 24/11/2023
 * Add option to support the MTU floppy controller boot prom
 * Minor silkscreen update
