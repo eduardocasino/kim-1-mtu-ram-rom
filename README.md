@@ -39,7 +39,7 @@ See the LICENSE.md file for details.
 
 ## Rev. 1 Fix
 
-If you built revision 1 of this board, you found out that the 0400-13FF RAM does not work (See [Issue #1](https://github.com/eduardocasino/kim-1-mtu-ram-rom/issues/1))
+If you built revision 1 of this board, you may have found out that the 0400-13FF RAM does not work with the [buffered motherboard](https://github.com/eduardocasino/kim-1-mtu-motherboard). It works fine with the [passive expansion board](https://github.com/eduardocasino/kim-1-mtu-expansion-card) and it should also work in a real MTU cabinet (See [Issue #1](https://github.com/eduardocasino/kim-1-mtu-ram-rom/issues/1))
 
 You can perform this very simple bodge on the the PCB:
 
