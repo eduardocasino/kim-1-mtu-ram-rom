@@ -2,9 +2,9 @@
 
 ## **WARNING**
 
-**ALTHOUGH THE REV. 2 SEEMS TO BE WORKING SO FAR, IT STILL NEEDS MORE TESTING. USE AT YOUR OWN RISK!!!**
+**ALTHOUGH THE REV. 3 SEEMS TO BE WORKING SO FAR, IT STILL NEEDS MORE TESTING. USE AT YOUR OWN RISK!!!**
 
-If you ordered the first revision PCB, please see the "Rev. 1 Fix" section below.
+If you ordered the first or second revision PCB, please see the "Rev. 1 Fix" and/or "Rev. 2 Fix" sections below.
 
 ## About
 
@@ -37,6 +37,24 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 See the LICENSE.md file for details.
 
+## Rev. 2 Fix
+
+Replacing the system RAM (0x0000-0x03FF) does not work reliably with the revision 2 PCB.
+
+There is a simple fix with a couple of bodges:
+
+Using a cutter, carefully cut the tracks that joins pin 24 of U1 and pin 16 of U2:
+
+![step1](https://raw.githubusercontent.com/eduardocasino/kim-1-mtu-ram-rom/main/images/v2-fix-cut-front.png)
+
+On the back side, cut the spoke at pin 24 of U1 (not strictly needed, but it is better to not have that copper island attached to the pin) and the track that joins pin 29 of U1 and pad 'V' of the edge connector:
+
+![step2](https://raw.githubusercontent.com/eduardocasino/kim-1-mtu-ram-rom/main/images/v2-fix-cut-back.png)
+
+Finally, solder these two wires:
+
+![step3](https://raw.githubusercontent.com/eduardocasino/kim-1-mtu-ram-rom/main/images/v2-fix-wire-back.png)
+
 ## Rev. 1 Fix
 
 If you built revision 1 of this board, you may have found out that the 0400-13FF RAM does not work with the [buffered motherboard](https://github.com/eduardocasino/kim-1-mtu-motherboard). It works fine with the [passive expansion board](https://github.com/eduardocasino/kim-1-mtu-expansion-card) and it should also work in a real MTU cabinet (See [Issue #1](https://github.com/eduardocasino/kim-1-mtu-ram-rom/issues/1))
@@ -56,6 +74,9 @@ Finally, solder these three wires:
 ![step3](https://raw.githubusercontent.com/eduardocasino/kim-1-mtu-ram-rom/main/images/fix-pcb-wire-back.png)
 
 ## Changelog
+#### 30/04/2024
+* Release Rev. 3
+* Fix replacing system RAM
 #### 28/01/2024
 * Release Rev. 2
 * Fix [Issue #1](https://github.com/eduardocasino/kim-1-mtu-ram-rom/issues/1)
